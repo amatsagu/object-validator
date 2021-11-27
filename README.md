@@ -9,11 +9,11 @@
 ### Usage
 #### For Deno (TS support, 6KB)
 ```ts
-import { Schema, validate } from "https://deno.land/x/object_validator@1.0.0/mod.ts";
+import { Schema, validate } from "https://deno.land/x/object_validator@1.0/mod.ts";
 ```
 #### For browsers (lack of TS support, 3.7KB)
 ```js
-<script type="module" src="https://deno.land/x/object_validator@1.0.0/bundle.js"></script>
+<script type="module" src="https://deno.land/x/object_validator@1.0/bundle.js"></script>
 ```
 
 `Schema` is a TypeScript interface that will help you build proper schema. **Make sure your schema is correct because it's not being checked.** `Validate` is the function that accepts the schema model and object you want to test. It will throw detailed error message when finds that object doesn't match schema rules.
