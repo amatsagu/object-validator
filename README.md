@@ -1,7 +1,7 @@
 # Object Validator
 
 <a href="https://deepscan.io/dashboard#view=project&tid=15317&pid=19329&bid=498727"><img src="https://deepscan.io/api/teams/15317/projects/19329/branches/498727/badge/grade.svg" alt="DeepScan grade"></a>
-<img alt="Github license badge" src="https://img.shields.io/github/license/Amatsagu/Object-Validator" />
+<img alt="Github license badge" src="https://img.shields.io/github/license/Amatsagu/Object_Validator" />
 <img alt="Maintenance badge" src="https://img.shields.io/maintenance/yes/2024" />
 
 > Super lean, simple **object** validation with TypeScript support.
@@ -9,18 +9,18 @@
 ### Usage
 #### For Deno (TS support, 6KB)
 ```ts
-import { Schema, validate } from "https://deno.land/x/object-validator@1.0.0/mod.ts";
+import { Schema, validate } from "https://deno.land/x/object_validator@1.0.0/mod.ts";
 ```
-#### For browsers (lack of TS support, 4KB)
+#### For browsers (lack of TS support, 3.7KB)
 ```js
-<script type="module" src="https://deno.land/x/object-validator@1.0.0/bundle.js"></script>
+<script type="module" src="https://deno.land/x/object_validator@1.0.0/bundle.js"></script>
 ```
 
 `Schema` is a TypeScript interface that will help you build proper schema. **Make sure your schema is correct because it's not being checked.** `Validate` is the function that accepts the schema model and object you want to test. It will throw detailed error message when finds that object doesn't match schema rules.
 
 ### Examples
-<img alt="Example code snippet" src="https://raw.githubusercontent.com/Amatsagu/Object-Validator/master/.github/example%20usage%202.png" />
-<img alt="Example code snippet" src="https://raw.githubusercontent.com/Amatsagu/Object-Validator/master/.github/example%20usage.png" />
+<img alt="Example code snippet" src="https://raw.githubusercontent.com/Amatsagu/Object_Validator/master/.github/example%20usage%202.png" />
+<img alt="Example code snippet" src="https://raw.githubusercontent.com/Amatsagu/Object_Validator/master/.github/example%20usage.png" />
 
 ### Documentation
 #### Schema is built from rules. To create rule you need to specify variable "type" and then you can specify requirements.
