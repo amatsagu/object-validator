@@ -1,6 +1,6 @@
 # Object Validator
 
-<a href="https://deepscan.io/dashboard#view=project&tid=15317&pid=19857&bid=521821"><img src="https://deepscan.io/api/teams/15317/projects/19857/branches/521821/badge/grade.svg" alt="DeepScan grade"></a>
+<a href="https://deepscan.io/dashboard#view=project&tid=17422&pid=20787&bid=576851"><img src="https://deepscan.io/api/teams/17422/projects/20787/branches/576851/badge/grade.svg" alt="DeepScan grade"></a>
 <img alt="Github license badge" src="https://img.shields.io/github/license/Amatsagu/Object_Validator" />
 <img alt="Maintenance badge" src="https://img.shields.io/maintenance/yes/2024" />
 
